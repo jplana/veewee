@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency "cucumber", ">= 1.0.0"
   s.add_dependency "rspec",    "~> 2.5"
   #s.add_dependency "simon", "~> 0.1.1"
-
+  s.add_dependency "virtualbox"
   s.add_development_dependency "bundler", ">= 1.0.0"
 
   s.files        = `git ls-files`.split("\n")
